@@ -1,0 +1,13 @@
+[package]
+name = "ply"
+version = "0.1.0"
+authors = ["Pierre Fenoll <pierrefenoll@gmail.com>"]
+description = "Parse, read, write PLY (Polygon File Format) streams using Nom"
+license = "MIT"
+keywords = ["ply", "pointclouds", "3D"]
+repository = "https://github.com/fenollp/ply"
+documentation = "https://docs.rs/crate/ply"
+categories = ["parsing", "encoding", "data-structures"]
+
+[dependencies]
+nom = "^3.1"
